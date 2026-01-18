@@ -50,19 +50,21 @@ import tedungImg from '../assets/bali_tedung.png'
         Whether you have a question or just want to say hi, I'll try my best to get back to you!
       </p>
 
-      <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto">
          <a 
            v-for="social in socialLinks" :key="social.name"
            :href="social.url" 
            target="_blank" 
-           class="flex items-center justify-center space-x-3 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-bali-gold px-6 py-4 rounded-sm transition-all duration-300 group"
+           class="flex items-center justify-start space-x-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-bali-gold px-6 py-5 rounded-sm transition-all duration-300 group"
          >
-           <svg class="w-6 h-6 fill-current text-gray-400 group-hover:text-bali-gold transition-colors duration-300" viewBox="0 0 24 24">
-             <path :d="social.icon"/>
-           </svg>
-           <div class="text-left">
-             <div class="text-xs text-bali-brick uppercase tracking-wider">{{ social.name }}</div>
-             <div class="text-poleng-white group-hover:text-bali-gold transition-colors font-semibold">{{ social.handle }}</div>
+           <div class="bg-black/30 p-2 rounded-full border border-white/5 group-hover:border-bali-gold/50 transition-colors">
+              <svg class="w-6 h-6 fill-current text-gray-400 group-hover:text-bali-gold transition-colors duration-300" viewBox="0 0 24 24">
+                <path :d="social.icon"/>
+              </svg>
+           </div>
+           <div class="text-left overflow-hidden">
+             <div class="text-xs text-bali-brick uppercase tracking-wider mb-0.5">{{ social.name }}</div>
+             <div class="text-poleng-white group-hover:text-bali-gold transition-colors font-semibold truncate text-sm md:text-base">{{ social.handle }}</div>
            </div>
          </a>
       </div>
