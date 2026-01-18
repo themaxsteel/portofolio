@@ -39,10 +39,10 @@ import jepunImg from '../assets/bali_jepun.png'
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="flex flex-col md:flex-row justify-between items-end mb-16">
-        <div>
+        <div class="w-full text-center md:text-left">
           <h3 class="text-bali-brick uppercase tracking-widest font-semibold mb-2">Featured Work</h3>
           <h2 class="text-4xl font-display font-bold text-poleng-white mb-4">Selected <span class="text-bali-gold">Projects</span></h2>
-          <div class="w-20 h-1 bg-bali-gold mb-8 mt-4"></div>
+          <div class="w-20 h-1 bg-bali-gold mb-8 mt-4 mx-auto md:mx-0"></div>
         </div>
         
       </div>
@@ -66,12 +66,6 @@ import jepunImg from '../assets/bali_jepun.png'
             <h3 class="text-2xl font-display font-bold text-poleng-white group-hover:text-bali-gold transition-colors duration-300">{{ project.title }}</h3>
           </div>
         </div>
-      </div>
-      
-      <div class="mt-12 text-center md:hidden">
-        <button class="text-bali-gold border-b border-bali-gold pb-1 font-body">
-          View All Projects &rarr;
-        </button>
       </div>
     </div>
   </section>

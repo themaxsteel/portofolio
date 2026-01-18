@@ -2,7 +2,7 @@
 const skills = [
   { name: 'Vue 3', level: 'Advanced' },
   { name: 'Tailwind CSS', level: 'Advanced' },
-  { name: 'JavaScript', level: 'Expert' },
+  { name: 'Flutter', level: 'Expert' },
   { name: 'Node.js', level: 'Intermediate' },
   { name: 'UI/UX Design', level: 'Intermediate' },
   { name: 'Git', level: 'Advanced' },
