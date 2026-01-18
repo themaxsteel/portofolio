@@ -46,7 +46,7 @@ const scrollToSection = (id) => {
       <!-- Desktop Links -->
       <div class="hidden md:flex space-x-8">
         <button 
-          v-for="item in ['About', 'Skills', 'Projects', 'Contact']" 
+          v-for="item in ['About', 'Skills', 'Projects', 'Hobbies', 'Contact']" 
           :key="item"
           @click="scrollToSection(item.toLowerCase())"
           class="text-poleng-white hover:text-bali-gold transition-colors duration-300 font-medium uppercase tracking-wider text-sm font-body relative group"
