@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-shadow-gold {
+    text-shadow: 2px 2px 4px rgba(212, 175, 55, 0.4);
+  }
+}
+
+/* Poleng Pattern Utility */
+.bg-poleng {
+  background-color: #f0f0f0;
+  background-image:
+    linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%, #1a1a1a),
+    linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%, #1a1a1a);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* Styled Batik Pattern (Kawung-inspired abstraction) */
+.bg-batik {
+  background-color: #1a1a1a;
+  background-image:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(212, 175, 55, 0.1) 21%, rgba(212, 175, 55, 0.1) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(212, 175, 55, 0.1) 21%, rgba(212, 175, 55, 0.1) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 50% 100%, transparent 20%, rgba(179, 90, 43, 0.1) 21%, rgba(179, 90, 43, 0.1) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 50% 0%, transparent 20%, rgba(179, 90, 43, 0.1) 21%, rgba(179, 90, 43, 0.1) 34%, transparent 35%, transparent);
+  background-size: 60px 60px;
+  background-position: 0 0;
+}
