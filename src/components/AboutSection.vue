@@ -1,5 +1,6 @@
 <script setup>
 import profileImg from '../assets/turbo_pp.jpg'
+import jepunImg from '../assets/bali_jepun.png'
 </script>
 
 <template>
