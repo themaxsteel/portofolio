@@ -1,6 +1,5 @@
 <script setup>
 import barongImg from '../assets/barong.jpg'
-import gapuraImg from '../assets/bali_gapura.png'
 
 
 const scrollToSection = (id) => {
@@ -49,14 +48,6 @@ const scrollToSection = (id) => {
 
     <!-- Decorative Elements -->
     <div class="absolute bottom-0 w-full h-16 bg-gradient-to-t from-poleng-black to-transparent z-20"></div>
-    
-    <!-- Gapura Gate - Framed at Edges -->
-    <div class="absolute bottom-0 left-0 z-10 pointer-events-none opacity-90 mb-[-5%] ml-[-5%]">
-      <img :src="gapuraImg" class="h-[40vh] md:h-[60vh] object-contain drop-shadow-2xl" />
-    </div>
-    <div class="absolute bottom-0 right-0 z-10 pointer-events-none opacity-90 mb-[-5%] mr-[-5%]">
-      <img :src="gapuraImg" class="h-[40vh] md:h-[60vh] object-contain drop-shadow-2xl transform scale-x-[-1]" />
-    </div>
 
     <!-- Poleng Decoration Strip -->
     <div class="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-black via-white to-black opacity-30"></div>
