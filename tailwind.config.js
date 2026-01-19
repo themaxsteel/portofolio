@@ -15,8 +15,8 @@ export default {
         'poleng-white': '#f0f0f0',    // Soft white
       },
       fontFamily: {
-        'display': ['Playfair Display', 'serif'],
-        'body': ['Inter', 'sans-serif'],
+        'display': ['Poppins', 'sans-serif'],
+        'body': ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
         'poleng-pattern': "repeating-linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%, #1a1a1a), repeating-linear-gradient(45deg, #1a1a1a 25%, #f0f0f0 25%, #f0f0f0 75%, #1a1a1a 75%, #1a1a1a)",
